@@ -1,0 +1,25 @@
+/* Style for the navigation bar */
+.navbar {
+    background-color: #ffffff; /* White background for the navbar */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+/* Style for navigation items/links */
+.nav-item {
+    color: #ffffff; /* White text for the links */
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #add8e6; /* Light blue background for the links */
+    border-radius: 5px; /* Rounded corners for the links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for navigation items */
+.nav-item:hover {
+    background-color: #87ceeb; /* Slightly darker shade of blue on hover */
+}
