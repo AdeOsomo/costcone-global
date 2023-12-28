@@ -12,11 +12,12 @@ interface DataCardProps {
 }
 
 const DataCard: React.FC<DataCardProps> = ({ title, text, imageUrl }) => {
+    const imagePath = `/images/${imageUrl}`;
   return (
     <Card sx={{ maxWidth: 345, m: 2 }}>
       <CardMedia
         component="img"
-        height="140"
+        height="160"
         image={imageUrl}
         alt={title}
       />

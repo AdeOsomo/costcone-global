@@ -1,14 +1,17 @@
 import React from 'react';
 import '../CSS/Home.css';
-import Countdown from '../components/CountDown';
+import PageLayout from '../components/PageLayout';
+
 
 const Home: React.FC = () => {
   return (
     <div>
-      <h1>Welcome to the Home Page</h1>
-      <Countdown targetDate="2023-12-31" /> {/* Set your target date */}
+      <PageLayout title="Creating Efficiencies, transparency, and cost savings for your business through automation." detail="We are experts in delivering scalable, AI driven, business process solutions taylored to your specific business needs." date="January 1, 2024">
+            <p></p>
+            <p>More content goes here...</p>
+        </PageLayout>
     </div>
-    
+  
   );
 };
 
