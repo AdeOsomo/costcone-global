@@ -38,7 +38,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
     <Card sx={{ minWidth: 275, textAlign: 'center', m: 2 }}>
       <CardContent>
         <Typography variant="h4" component="div">
-          Website to be Launched {"02/01/2024"}
+          Website to be Launched {"10/01/2024"}
         </Typography>
         <Typography variant="h5" component="div">
           {timeLeft.days} Days {timeLeft.hours} Hours {timeLeft.minutes} Minutes {timeLeft.seconds} Seconds

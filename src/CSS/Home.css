@@ -4,6 +4,12 @@
     align-items: center; /* Align cards vertically */
     flex-wrap: wrap; /* Ensure responsiveness */
     margin: 20px;
+
+  }
+  .canvas-component-text-other {
+    color: rgba(4, 8, 17, 0.897);
+    text-align: left;
+
   }
   
   @media screen and (max-width: 768px) {

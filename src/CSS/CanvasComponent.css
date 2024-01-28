@@ -1,0 +1,43 @@
+/* CanvasComponent.css */
+
+/* Style for all text within CanvasComponent */
+.canvas-component-text {
+    color: white;
+}
+.canvas-component-text-other {
+    color: rgba(4, 8, 17, 0.897);
+    text-align: center;
+}
+.canvas-component-text-company {
+    color: rgba(4, 8, 17, 0.897);
+    text-align: center;
+}
+.canvas-component-text-body {
+    color: rgba(4, 8, 17, 0.897);
+    text-align: left;
+}
+
+/* Style for button in its normal state */
+.canvas-component-button {
+    background-color: #044c79;
+    border: none;
+    color: white;
+    padding: 20px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;          
+}
+
+/* Style for button when clicked (active state) */
+.canvas-component-button:active {
+    background-color: hsl(211, 86%, 11%); /* Darker shade of blue */
+}
+.canvas-component-button:hover {
+    background-color: hsl(224, 61%, 71%);
+    color: white;
+  }
+  .fixed-width-typography {
+    width: 200px;
+  }
+  

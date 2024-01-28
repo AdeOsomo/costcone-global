@@ -9,7 +9,7 @@ import Technologies from './Pages/Technologies';
 import Partners from './Pages/Partners';
 import Company from './Pages/Company';
 import Careers from './Pages/Careers';
-
+import Contact from './Pages/ContactUs';
 
 
 const App: React.FC = () => {
@@ -22,7 +22,7 @@ const App: React.FC = () => {
         <Route path="/technologies" element={<Technologies />} />
         <Route path="/partners" element={<Partners />} />
         <Route path="/company" element={<Company />} />
-        <Route path="/careers" element={<Careers />} />
+        <Route path="/contactus" element={<Contact />} />
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
       <Footer />
